@@ -167,6 +167,174 @@
       "text": "Wherefore I perceive that there is nothing better, than that a man should rejoice in his own works; for that is his portion...",
       "reference": "Ecclesiastes 3:22 (KJV)",
       "paraphrase": "There's nothing better than a dev who enjoys their own work. That feeling after a clean deploy? That's your reward. 😌"
+    },
+    {
+      "id": 25,
+      "category": "🔒 Security & Protection",
+      "text": "The Lord is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.",
+      "reference": "Psalm 18:2 (KJV)",
+      "paraphrase": "God is your firewall, VPN, and 2FA all in one. No unauthorized access to your peace. 🔐"
+    },
+    {
+      "id": 26,
+      "category": "🔒 Security & Protection",
+      "text": "But the Lord is faithful, who shall stablish you, and keep you from evil.",
+      "reference": "2 Thessalonians 3:3 (KJV)",
+      "paraphrase": "God's CI/CD pipeline never fails. He'll establish your code and protect it from evil bugs. 🛡️"
+    },
+    {
+      "id": 27,
+      "category": "⚡ Performance & Optimization",
+      "text": "But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+      "reference": "Isaiah 40:31 (KJV)",
+      "paraphrase": "Optimize your code and it will run like eagles, not crash like IE6. 🦅"
+    },
+    {
+      "id": 28,
+      "category": "⚡ Performance & Optimization",
+      "text": "I can do all things through Christ which strengtheneth me.",
+      "reference": "Philippians 4:13 (KJV)",
+      "paraphrase": "Your app can handle all the traffic through Christ who strengthens your load balancer. ⚡"
+    },
+    {
+      "id": 29,
+      "category": "🐛 Debugging & Problem Solving",
+      "text": "Call unto me, and I will answer thee, and show thee great and mighty things, which thou knowest not.",
+      "reference": "Jeremiah 33:3 (KJV)",
+      "paraphrase": "Stack Overflow is good, but prayer shows you solutions you never knew existed. 🔍"
+    },
+    {
+      "id": 30,
+      "category": "🐛 Debugging & Problem Solving",
+      "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.",
+      "reference": "James 1:5 (KJV)",
+      "paraphrase": "Stuck on a bug? God gives wisdom liberally - no Stack Overflow points required. 🧠"
+    },
+    {
+      "id": 31,
+      "category": "🚀 Launch & Deployment",
+      "text": "The Lord gave the word: great was the company of those that published it.",
+      "reference": "Psalm 68:11 (KJV)",
+      "paraphrase": "God gives the feature, we just deploy it. Great is the team that ships to production! 🚀"
+    },
+    {
+      "id": 32,
+      "category": "🚀 Launch & Deployment",
+      "text": "And let the beauty of the Lord our God be upon us: and establish thou the work of our hands upon us; yea, the work of our hands establish thou it.",
+      "reference": "Psalm 90:17 (KJV)",
+      "paraphrase": "Let the beauty of clean code be upon us, and establish our deployment so it doesn't rollback. ✨"
+    },
+    {
+      "id": 33,
+      "category": "🔄 Version Control & Updates",
+      "text": "Behold, I make all things new.",
+      "reference": "Revelation 21:5 (KJV)",
+      "paraphrase": "God's the original maintainer. Every commit with Him is a major version upgrade. 🔄"
+    },
+    {
+      "id": 34,
+      "category": "🔄 Version Control & Updates",
+      "text": "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.",
+      "reference": "2 Corinthians 5:17 (KJV)",
+      "paraphrase": "In Christ, you're v2.0. All legacy code is deprecated. Time to refactor your life. ♻️"
+    },
+    {
+      "id": 35,
+      "category": "📊 Data & Wisdom",
+      "text": "The heart of the wise teacheth his mouth, and addeth learning to his lips.",
+      "reference": "Proverbs 16:23 (KJV)",
+      "paraphrase": "A wise dev's heart teaches their IDE, adding clean code to their commits. 📊"
+    },
+    {
+      "id": 36,
+      "category": "📊 Data & Wisdom",
+      "text": "For wisdom is better than rubies; and all the things that may be desired are not to be compared to it.",
+      "reference": "Proverbs 8:11 (KJV)",
+      "paraphrase": "Wisdom > Big Data. All the machine learning models can't compare to divine insight. 💎"
+    },
+    {
+      "id": 37,
+      "category": "🌐 Networking & Connections",
+      "text": "That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.",
+      "reference": "John 17:21 (KJV)",
+      "paraphrase": "The ultimate distributed system - all nodes connected to the main server. Perfect uptime. 🌐"
+    },
+    {
+      "id": 38,
+      "category": "🌐 Networking & Connections",
+      "text": "Two are better than one; because they have a good reward for their labour.",
+      "reference": "Ecclesiastes 4:9 (KJV)",
+      "paraphrase": "Pair programming > solo coding. Better merge requests, fewer conflicts. 👥"
+    },
+    {
+      "id": 39,
+      "category": "💼 Leadership & Management",
+      "text": "And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;",
+      "reference": "Ephesians 4:11 (KJV)",
+      "paraphrase": "God's org chart: Architects, Senior Devs, Tech Evangelists, and Code Reviewers. Everyone has a role. 📈"
+    },
+    {
+      "id": 40,
+      "category": "💼 Leadership & Management",
+      "text": "Without counsel purposes are disappointed: but in the multitude of counsellors they are established.",
+      "reference": "Proverbs 15:22 (KJV)",
+      "paraphrase": "No code review = failed deployment. Many reviewers = production ready. ✅"
+    },
+    {
+      "id": 41,
+      "category": "⚖️ Ethics & Integrity",
+      "text": "The integrity of the upright shall guide them: but the perverseness of transgressors shall destroy them.",
+      "reference": "Proverbs 11:3 (KJV)",
+      "paraphrase": "Clean code and ethical practices guide you. Tech debt and shortcuts destroy your project. ⚖️"
+    },
+    {
+      "id": 42,
+      "category": "⚖️ Ethics & Integrity",
+      "text": "Provide things honest in the sight of all men.",
+      "reference": "Romans 12:17 (KJV)",
+      "paraphrase": "Write honest code that passes code review. No hidden vulnerabilities. 🔍"
+    },
+    {
+      "id": 43,
+      "category": "🎯 Focus & Productivity",
+      "text": "But this one thing I do, forgetting those things which are behind, and reaching forth unto those things which are before,",
+      "reference": "Philippians 3:13 (KJV)",
+      "paraphrase": "One task at a time. Forget the broken build, focus on the next feature. 🎯"
+    },
+    {
+      "id": 44,
+      "category": "🎯 Focus & Productivity",
+      "text": "Whatsoever thy hand findeth to do, do it with thy might; for there is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest.",
+      "reference": "Ecclesiastes 9:10 (KJV)",
+      "paraphrase": "Code with all your might - no debugging in the afterlife. Make this commit count! 💪"
+    },
+    {
+      "id": 45,
+      "category": "🛠️ Tools & Resources",
+      "text": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.",
+      "reference": "James 1:17 (KJV)",
+      "paraphrase": "VS Code, GitHub, React - every good dev tool is a gift from above. No runtime errors with God. 🛠️"
+    },
+    {
+      "id": 46,
+      "category": "🛠️ Tools & Resources",
+      "text": "I have planted, Apollos watered; but God gave the increase.",
+      "reference": "1 Corinthians 3:6 (KJV)",
+      "paraphrase": "You write the code, the team reviews it, but God makes it scale. 🌱"
+    },
+    {
+      "id": 47,
+      "category": "🌙 Rest & Sabbath",
+      "text": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.",
+      "reference": "Genesis 2:2 (KJV)",
+      "paraphrase": "Even God took a break after shipping creation. Your side project can wait until Monday. 😴"
+    },
+    {
+      "id": 48,
+      "category": "🌙 Rest & Sabbath",
+      "text": "It is vain for you to rise up early, to sit up late, to eat the bread of sorrows: for so he giveth his beloved sleep.",
+      "reference": "Psalm 127:2 (KJV)",
+      "paraphrase": "Stop burning midnight oil debugging. God gives His beloved devs sleep and fresh perspectives. 💤"
     }
   ]
 }
