@@ -1,0 +1,172 @@
+{
+  "verses": [
+    {
+      "id": 1,
+      "category": "💰 Money & Success",
+      "text": "But thou shalt remember the Lord thy God: for it is he that giveth thee power to get wealth...",
+      "reference": "Deuteronomy 8:18 (KJV)",
+      "paraphrase": "God's the one who gave you the skills to get that bag. Stay humble. 💻➡️💰"
+    },
+    {
+      "id": 2,
+      "category": "💰 Money & Success",
+      "text": "Seest thou a man diligent in his business? he shall stand before kings; he shall not stand before mean men.",
+      "reference": "Proverbs 22:29 (KJV)",
+      "paraphrase": "Ship quality code consistently, and you'll be in the big leagues. No more legacy code maintenance. 😎"
+    },
+    {
+      "id": 3,
+      "category": "💰 Money & Success",
+      "text": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night... for then thou shalt make thy way prosperous, and then thou shalt have good success.",
+      "reference": "Joshua 1:8 (KJV)",
+      "paraphrase": "Keep the docs and best practices top of mind, day and night. That's the real path to a successful deploy. 🚀"
+    },
+    {
+      "id": 4,
+      "category": "🤝 Teamwork & Collaboration",
+      "text": "Two are better than one; because they have a good reward for their labour. For if they fall, the one will lift up his fellow: but woe to him that is alone when he falleth...",
+      "reference": "Ecclesiastes 4:9-10 (KJV)",
+      "paraphrase": "Pair programming > solo coding. Who else will catch your off-by-one error before prod? 👯‍♂️"
+    },
+    {
+      "id": 5,
+      "category": "🤝 Teamwork & Collaboration",
+      "text": "For the body is not one member, but many... If the whole body were an eye, where were the hearing?",
+      "reference": "1 Corinthians 12:14-17 (KJV)",
+      "paraphrase": "The team needs frontend, backend, QA, and DevOps. You can't all be the JavaScript framework of the week. 🧱👂🦵"
+    },
+    {
+      "id": 6,
+      "category": "🤝 Teamwork & Collaboration",
+      "text": "Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.",
+      "reference": "Proverbs 27:17 (KJV)",
+      "paraphrase": "A good PR review sharpens the code and the coder. No blunt edges allowed. ⚔️"
+    },
+    {
+      "id": 7,
+      "category": "😫 Motivation During Burnout",
+      "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not.",
+      "reference": "Galatians 6:9 (KJV)",
+      "paraphrase": "Don't stop shipping good code. The feature launch is coming, just don't rage-quit first. 🌱➡️🍎"
+    },
+    {
+      "id": 8,
+      "category": "😫 Motivation During Burnout",
+      "text": "But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+      "reference": "Isaiah 40:31 (KJV)",
+      "paraphrase": "Take a break, touch grass, and your strength will be renewed. You'll come back and crush that sprint. 🦅"
+    },
+    {
+      "id": 9,
+      "category": "😫 Motivation During Burnout",
+      "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
+      "reference": "Matthew 11:28-30 (KJV)",
+      "paraphrase": "Jesus' API is always available. POST /rest for those heavy-laden with tech debt. 🛌"
+    },
+    {
+      "id": 10,
+      "category": "🔁 Consistency & Perseverance",
+      "text": "Let us run with patience the race that is set before us...",
+      "reference": "Hebrews 12:1 (KJV)",
+      "paraphrase": "It's a marathon, not a sprint. Even when the product roadmap changes... again. 🏃‍♂️💨"
+    },
+    {
+      "id": 11,
+      "category": "🔁 Consistency & Perseverance",
+      "text": "Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown of life...",
+      "reference": "James 1:12 (KJV)",
+      "paraphrase": "Blessed is the dev who endures the temptation to push straight to main. They will receive the crown of a clean git history. 👑"
+    },
+    {
+      "id": 12,
+      "category": "🔁 Consistency & Perseverance",
+      "text": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ.",
+      "reference": "Philippians 1:6 (KJV)",
+      "paraphrase": "God started a good work in your codebase, and He's gonna see it through to v1.0. Keep refactoring. 🔧"
+    },
+    {
+      "id": 13,
+      "category": "📈 Growth & Learning",
+      "text": "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ...",
+      "reference": "2 Peter 3:18 (KJV)",
+      "paraphrase": "Never stop learning. Your knowledge graph should have more nodes than your production database. 🧠"
+    },
+    {
+      "id": 14,
+      "category": "📈 Growth & Learning",
+      "text": "A wise man will hear, and will increase learning; and a man of understanding shall attain unto wise counsels.",
+      "reference": "Proverbs 1:5 (KJV)",
+      "paraphrase": "A senior dev listens to feedback and keeps learning. Stay humble, stay hungry. 🍽️"
+    },
+    {
+      "id": 15,
+      "category": "📈 Growth & Learning",
+      "text": "I can do all things through Christ which strengtheneth me.",
+      "reference": "Philippians 4:13 (KJV)",
+      "paraphrase": "I can learn Rust, debug distributed systems, and survive a planning meeting. Through Christ who strengthens my Google-fu. 💪"
+    },
+    {
+      "id": 16,
+      "category": "🎨 Creativity (Building from Nothing)",
+      "text": "Through faith we understand that the worlds were framed by the word of God, so that things which were seen were not made of things which do appear.",
+      "reference": "Hebrews 11:3 (KJV)",
+      "paraphrase": "The universe was framed by a command. You build your app from void main(). Speak it into existence. ✨"
+    },
+    {
+      "id": 17,
+      "category": "🎨 Creativity (Building from Nothing)",
+      "text": "In the beginning God created the heaven and the earth. And the earth was without form, and void...",
+      "reference": "Genesis 1:1-2 (KJV)",
+      "paraphrase": "God started with an empty repo. Your README.md is 'Let there be light'. Now start committing. 🌌"
+    },
+    {
+      "id": 18,
+      "category": "🎨 Creativity (Building from Nothing)",
+      "text": "And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship... to work in all manner of work.",
+      "reference": "Exodus 31:3-4 (KJV)",
+      "paraphrase": "God fills devs with wisdom and skill for all kinds of craftsmanship: UI, algorithms, you name it. Your talent is a gift. 🛠️"
+    },
+    {
+      "id": 19,
+      "category": "💪 Emotional Strength & Faith",
+      "text": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+      "reference": "Hebrews 11:1 (KJV)",
+      "paraphrase": "Code it by faith, not by sight. You haven't seen it work yet, but you hope for that 'Hello, World!' ✨"
+    },
+    {
+      "id": 20,
+      "category": "💪 Emotional Strength & Faith",
+      "text": "Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.",
+      "reference": "Proverbs 3:5-6 (KJV)",
+      "paraphrase": "Don't lean on your own understanding of the legacy codebase. Acknowledge God, and He will guide your debugger. 🧭"
+    },
+    {
+      "id": 21,
+      "category": "💪 Emotional Strength & Faith",
+      "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+      "reference": "Philippians 4:6-7 (KJV)",
+      "paraphrase": "Don't panic about the production outage. Pray about it. God's peace will guard your heart and mind while you ssh into the server. 🕊️"
+    },
+    {
+      "id": 22,
+      "category": "❤️ Love for the Craft / Passion for Building",
+      "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
+      "reference": "Colossians 3:23 (KJV)",
+      "paraphrase": "Write your code heartily, as if God is the Senior Dev reviewing your PR. Not for the PM. 🙏"
+    },
+    {
+      "id": 23,
+      "category": "❤️ Love for the Craft / Passion for Building",
+      "text": "Delight thyself also in the Lord: and he shall give thee the desires of thine heart.",
+      "reference": "Psalm 37:4 (KJV)",
+      "paraphrase": "When your delight is in the Creator, He'll give you a passion for creating. Now go build that side project. 🚀"
+    },
+    {
+      "id": 24,
+      "category": "❤️ Love for the Craft / Passion for Building",
+      "text": "Wherefore I perceive that there is nothing better, than that a man should rejoice in his own works; for that is his portion...",
+      "reference": "Ecclesiastes 3:22 (KJV)",
+      "paraphrase": "There's nothing better than a dev who enjoys their own work. That feeling after a clean deploy? That's your reward. 😌"
+    }
+  ]
+}
