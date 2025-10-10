@@ -1,8 +1,8 @@
 import 'colors';
 import express from 'express';
 import cors from 'cors';
-import logger from './src/utils/logger.js';
-import verseRoutes from './src/routes/verseRoutes.js';
+import logger from './utils/logger.js';
+//import verseRoutes from './src/routes/verseRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api', verseRoutes);
+//app.use('/api', verseRoutes);
 
 // 404 handler
 app.use('*', (req, res) => {
