@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node app/index.js",
-    "dev": "nodemon app/index.js"
+    "dev": "nodemon app/index.js",
+    "build": "echo 'No build step needed for Node.js API'"
   },
   "dependencies": {
     "express": "^4.18.2",
