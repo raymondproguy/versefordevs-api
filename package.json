@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Bible verses API for developers",
   "type": "module",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",

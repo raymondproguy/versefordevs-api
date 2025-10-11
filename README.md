@@ -60,7 +60,7 @@ npm run dev
 
 Deployment
 
-Ready for Railway, Render, Heroku, etc.
+Ready for Railway, Render, Heroku, etc.I'm deploying to pxxl.app
 
 ```
 
