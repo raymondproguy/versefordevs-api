@@ -3,14 +3,12 @@ import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { existsSync } from 'fs';
 import logger from './utils/logger.js';
 import verseRoutes from './routers/verseRoute.js';
 
 const app = express();
-const PORT = process.env.PORT || 3002;
-const HOST = "0.0.0.0";
-
-// Get __dirname equivalent for ES modules
+const PORT = process.env.PORT || 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -18,31 +16,45 @@ const __dirname = path.dirname(__filename);
 app.use(cors());
 app.use(express.json());
 
-// 1. FIRST: Serve static files (CSS, JS, images, etc.)
+// Serve static files from both possible paths (development and production)
 app.use(express.static(path.join(__dirname, '../public/versefordevs.com')));
+app.use(express.static(path.join(__dirname, '../../public/versefordevs.com')));
 
-// 2. SECOND: API Routes
+// API Routes
 app.use('/api', verseRoutes);
 
-// 3. LAST: Catch-all route for SPA (must be last)
+// Health check
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'OK', message: 'VerseForDevs API is running' });
+});
+
+// Serve the main HTML file for all non-API routes
 app.get('*', (req, res) => {
-  // Don't handle API routes here
   if (req.path.startsWith('/api')) {
-    return res.status(404).json({
-      success: false,
-      error: 'API route not found'
-    });
+    return res.status(404).json({ error: 'API route not found' });
   }
   
-  // Serve the main HTML file for all other routes
-  res.sendFile(path.join(__dirname, '../public/versefordevs.com', 'index.html'));
+  // Try multiple possible paths
+  const pathsToTry = [
+    path.join(__dirname, '../public/versefordevs.com/index.html'),
+    path.join(__dirname, '../../public/versefordevs.com/index.html'),
+    path.join(__dirname, '../public/versefordevs.com/index.html')
+  ];
+  
+  for (const filePath of pathsToTry) {
+    if (existsSync(filePath)) {
+      return res.sendFile(filePath);
+    }
+  }
+  
+  res.status(500).json({ error: 'Frontend files not found' });
 });
 
 // Start server
-app.listen(PORT, HOST, () => {
-  logger.success(`🚀 VerseForDevs API running on port ${PORT}`);
-  logger.info(`📍 Health check: http://localhost:${PORT}/api/health`);
-  logger.info(`📍 Website: http://localhost:${PORT}/`);
+app.listen(PORT, () => {
+  console.log(`🚀 VerseForDevs API running on port ${PORT}`.green);
+  console.log(`📍 Health check: http://localhost:${PORT}/api/health`.blue);
+  console.log(`📍 Website: http://localhost:${PORT}/`.blue);
 });
 
 export default app;

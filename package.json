@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Bible verses API for developers",
   "type": "module",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
     "start": "node app/index.js",
     "dev": "nodemon app/index.js",
-    "build": "echo 'No build step needed for Node.js API'"
+    "build": "echo 'No build step needed for Node.js API'",
+    "vercel-build": "echo 'No build needed for Vercel'"
   },
   "dependencies": {
     "express": "^4.18.2",
