@@ -6,7 +6,7 @@
       "use": "@vercel/node"
     },
     {
-      "src": "public/versefordevs.com/**",
+      "src": "public/**",
       "use": "@vercel/static"
     }
   ],
@@ -16,8 +16,12 @@
       "dest": "/app/index.js"
     },
     {
+      "src": "/app/(.*)",
+      "dest": "/public/app/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/public/versefordevs.com/$1"
+      "dest": "/public/web/$1"
     }
   ]
 }
