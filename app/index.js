@@ -17,8 +17,14 @@ app.use(cors());
 app.use(express.json());
 
 // Serve static files from both possible paths (development and production)
-app.use(express.static(path.join(__dirname, '../public/versefordevs.com')));
-app.use(express.static(path.join(__dirname, '../../public/versefordevs.com')));
+//app.use(express.static(path.join(__dirname, '../public/versefordevs.app/web/web.html')));
+//app.use(express.static(path.join(__dirname, '../../public/versefordevs.app/web/web.html')));
+
+// Serve website from root
+app.use('/', express.static('public/web'));
+
+// Serve main app from /app path  
+app.use('/app', express.static('public/app'));
 
 // API Routes
 app.use('/api', verseRoutes);

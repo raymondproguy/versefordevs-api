@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VerseForDevs</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="author" content="Raymond Nicholas, Raymond ProGuy">
+  <meta name="description" content="VerseForDevs - Biblical wisdom with developer humor. Bible verses curated for developers and tech creators.">
+  <meta name="keywords" content="VerseForDevs, Bible Verses, Developer, Tech, Motivation, API, Raymond ProGuy">
+  <meta property="og:title" content="VerseForDevs - Biblical Wisdom for Developers">
+  <meta property="og:description" content="Biblical wisdom meets developer reality. Get inspired with Bible verses curated for coders and creators.">
+  <meta property="og:url" content="https://versefordevs.pxxl.click">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>VerseForDevs</h1>
+            <p class="subtitle">Biblical wisdom for developers, creators, and builders</p>
+        </header>
+
+        <main>
+            <div class="controls-container">
+                <select id="category-select">
+                    <option value="">All Categories</option>
+                    <option value="random">Random Verse</option>
+                </select>
+                <div id="loading-spinner">⏳ Loading...</div>
+            </div>
+
+            <div class="verse-card">
+                <div class="verse-category" id="verse-category">💰 Money & Success</div>
+                <div class="verse-content">
+                    <p class="verse-text" id="verse-text">"But thou shalt remember the Lord thy God: for it is he that giveth thee power to get wealth..."</p>
+                    <div class="verse-reference" id="verse-reference">Deuteronomy 8:18 (KJV)</div>
+                </div>
+                <div class="dev-paraphrase" id="dev-paraphrase">
+                    "God's the one who gave you the skills to get that bag. Stay humble. 💻➡️💰"
+                </div>
+            </div>
+
+            <button class="btn" id="new-verse-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 4V9H4.58152M19.9381 11C19.446 7.05369 16.0796 4 12 4C8.64262 4 5.76829 6.06817 4.58152 9M4.58152 9H9M20 20V15H19.4185M19.4185 15C18.2317 17.9318 15.3574 20 12 20C7.92038 20 4.55399 16.9463 4.06189 13M19.4185 15H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                New Verse
+            </button>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ for developers everywhere</p>
+        </footer>
+    </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
